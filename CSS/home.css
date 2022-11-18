@@ -1,11 +1,92 @@
+/* repetitive style */
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+}
+p {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
 /* HEADER-start */
+.logo {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+}
+header > nav > a {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
 /* HEADER-end  */
 
 /* HERO section start */
+.hero {
+    background-image: url(../assets/hero_image.png);
+    width: 1346px;
+    height: 665px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+    .hero {
+        background-size: cover;
+    }
+}
+h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    margin-top: 163px !important;
+}
+section > nav > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 0 24px;
+}
+.hero > nav {
+    justify-content: center;
+    gap: 11px;
+    flex-wrap: wrap;
+}
 /* HERO section end */
 
 /* KVMR section start */
+img {
+    width: 316px;
+    height: 279px;
+}
+.kvrm {
+}
 /* KVMR section end */
 
 /* DUC section start */
 /* DUC section end */
+
+/* NEWSLETTER start */
+/* NEWSLETTER end */
+
+/* FOOTER start */
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 40px;
+}
+/* FOOTER end */
